@@ -2,10 +2,6 @@ Anne E. Sartori
 
 
 
-\*\*Anne E. Sartori\*\*
-
-
-
 \*\*Survival Analysis for Understanding the Association Between Systolic Blood Pressure and Mortality: The Framingham Heart Study\*\*
 
 
@@ -14,7 +10,7 @@ This repository contains work for my final project for Statistical Methods in Ep
 
 
 
-My report aims to understand the association between systolic blood pressure and mortality using a subset of data from the Framingham Heart Study, and taking into account possible differences by sex.
+My report aims to understand the association between systolic blood pressure and mortality, using a subset of data from the Framingham Heart Study and taking into account possible differences by sex.
 
 
 
@@ -26,7 +22,7 @@ Click here for \[Script](https://github.com/annesartori1/blood-pressure-mortalit
 
 
 
-\*\*Skills:\*\* Survival analysis, Cox proportional hazard models, including proportional hazards test, time-varying covariates
+\*\*Skills:\*\* Survival analysis, Cox proportional hazard models, proportional hazards tests, time-varying covariates, stratification to reduce confounding
 
 
 
@@ -34,9 +30,9 @@ Description of (private) Data:
 
 
 
-Description:
-
 Subjects had data measured at exam 4, and then the incidence of coronary heart disease (CHD), type 2 diabetes (T2D), and death (DTH) were recorded in the following 22 years of follow-up.
+
+
 
 Variables included in the data file are:
 
