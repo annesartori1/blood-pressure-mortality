@@ -1,4 +1,4 @@
-Anne E. Sartori
+\# Anne E. Sartori
 
 
 
@@ -14,7 +14,7 @@ My report aims to understand the association between systolic blood pressure and
 
 
 
-Click here for  \[Report](https://github.com/annesartori1/blood-pressure-mortality/blob/main/report/Sartori%20852%20Report.pdf).
+Click here for \[Report](https://github.com/annesartori1/blood-pressure-mortality/blob/main/report/Sartori%20852%20Report.pdf).  
 
 
 
@@ -22,51 +22,57 @@ Click here for \[Script](https://github.com/annesartori1/blood-pressure-mortalit
 
 
 
-\*\*Skills:\*\* Survival analysis, Cox proportional hazard models, proportional hazards tests, time-varying covariates, stratification to reduce confounding
+\*\*Skills:\*\* Survival analysis, Cox proportional hazard models, proportional hazards tests, time-varying covariates, stratification to reduce confounding  
 
 
 
-Description of (private) Data:
+---
 
 
 
-Subjects had data measured at exam 4, and then the incidence of coronary heart disease (CHD), type 2 diabetes (T2D), and death (DTH) were recorded in the following 22 years of follow-up.
+\*\*Description of (private) Data:\*\*  
 
 
 
-Variables included in the data file are:
+Subjects had data measured at exam 4, and then the incidence of coronary heart disease (CHD), type 2 diabetes (T2D), and death (DTH) were recorded in the following 22 years of follow-up.  
 
-SEX: (1=Male)
 
-AGE4: age at exam 4;
 
-CHOL4: total cholesterol at exam 4;
+Variables included in the data file are:  
 
-CIGS4: number of cigarettes smoked per day, at exam 4
+\- SEX: (1=Male)  
 
-SMOKE: this is a variable that denotes smoking (1=yes) at exam 4;
+\- AGE4: age at exam 4  
 
-SPF4 and DPF4: systolic and diastolic blood pressure at exam 4;
+\- CHOL4: total cholesterol at exam 4  
 
-WGT4: weight in pounds at exam 4;
+\- CIGS4: number of cigarettes smoked per day, at exam 4  
 
-FVC4: pulmonary function at exam 4;
+\- SMOKE: this is a variable that denotes smoking (1=yes) at exam 4  
 
-BMI4: bmi at exam 4;
+\- SPF4 and DPF4: systolic and diastolic blood pressure at exam 4  
 
-HTN4: hypertension at exam 4 (1 = yes)
+\- WGT4: weight in pounds at exam 4  
 
-MENO4; menopause at exam 4 (1 = yes)
+\- FVC4: pulmonary function at exam 4  
 
-DHT: mortality, 1 if subject died before the end of 22 years of follow up
+\- BMI4: bmi at exam 4  
 
-SURV: years --after exam 4-- at which death was recorded, or longest follow up if a subject dropped from the study before the end of 22 years.
+\- HTN4: hypertension at exam 4 (1 = yes)  
 
-CHD: 1 if CHD occurred during follow up
+\- MENO4: menopause at exam 4 (1 = yes)  
 
-CHD\_Surv: years after exam 4 at which CHD occurred, if CHD=1, otherwise longest follow up.
+\- DHT: mortality, 1 if subject died before the end of 22 years of follow up  
 
-T2D: type 2 diabetes after exam 4 (1 = yes)
+\- SURV: years — after exam 4 — at which death was recorded, or longest follow up if a subject dropped from the study before the end of 22 years  
 
-T2D\_Surv: years after exam 4 at which T2D occurred, if T2D=1, otherwise longest follow up.
+\- CHD: 1 if CHD occurred during follow up  
+
+\- CHD\_Surv: years after exam 4 at which CHD occurred, if CHD=1, otherwise longest follow up  
+
+\- T2D: type 2 diabetes after exam 4 (1 = yes)  
+
+\- T2D\_Surv: years after exam 4 at which T2D occurred, if T2D=1, otherwise longest follow up  
+
+
 
